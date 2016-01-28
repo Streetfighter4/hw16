@@ -1,0 +1,10 @@
+function power3(z)
+    o = [];
+    for i = 1:3*z;
+        disp(i^3);
+        o = [o, i^3];
+    end
+   o
+end
+
+>>power3 5
